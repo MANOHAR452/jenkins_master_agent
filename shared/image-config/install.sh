@@ -1,4 +1,4 @@
-et -exuo pipefail
+set -exuo pipefail
 
 ### Install packages
 apt-get update && apt-get install -y \
