@@ -25,7 +25,7 @@ def dockerTemplateBaseParameters = [
   sharedMemorySize:   null,
   tty:                true,
   volumesFromString:  '',
-  volumesString:      ''
+  volumesString:      '/var/run/docker.sock:/var/run/docker.sock:ro\n/etc/resolv.conf:/etc/resolv.conf:ro'
 ]
  
 def DockerTemplateParameters = [
