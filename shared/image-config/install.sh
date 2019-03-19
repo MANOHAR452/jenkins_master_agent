@@ -39,7 +39,7 @@ curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add -
 # Update the package list and install the Cloud SDK
 apt-get update && apt-get install -y google-cloud-sdk
 
-Copy binaries to a location used by some pipelines
+# Copy binaries to a location used by some pipelines
 mkdir -p /google-cloud-sdk/bin/
 ln -s /usr/bin/gcloud /google-cloud-sdk/bin/gcloud
 ln -s /usr/bin/gsutil /google-cloud-sdk/bin/gsutil
