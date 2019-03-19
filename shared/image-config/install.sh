@@ -83,8 +83,7 @@ rm -f terraform_0.11.10_linux_amd64.zip
 ### Install Terraform GSuite Provider
 plugins_dir="/home/$JENKINS_USER/.terraform.d/plugins"
 mkdir -p $plugins_dir && cd $plugins_dir
-curl -L https://github.com/DeviaVir/terraform-provider-gsuite/releases/download/v0.1.9/terraform-provider-gsuite_0.
-1.9_linux_amd64.tgz | tar xzv
+curl -L https://github.com/DeviaVir/terraform-provider-gsuite/releases/download/v0.1.9/terraform-provider-gsuite_0.1.9_linux_amd64.tgz | tar xzv
 
 ### Install Terragrunt
 cd /usr/local/bin
