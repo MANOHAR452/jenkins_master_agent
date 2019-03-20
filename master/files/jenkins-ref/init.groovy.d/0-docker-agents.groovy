@@ -21,7 +21,7 @@ def dockerTemplateBaseParameters = [
   memorySwap:         null,
   network:            '',
   privileged:         false,
-  pullCredentialsId:  "manohar4524:manumanu143",
+  pullCredentialsId:  "",
   sharedMemorySize:   null,
   tty:                true,
   volumesFromString:  '',
